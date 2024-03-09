@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(32, 32, 32);
+}
+
+h1 {
+    text-align: center;
+    color: beige;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#segundo-titulo {
+    color: beige;
+    font-size: 20px;
+    margin-left: 22%;
+    margin-top: 70px;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.linha {
+    background-color: #2A292E;
+    margin-top: 10px;
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 56%;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.linha-azul {
+    background-color: #194E78;
+    margin-top: 10px;
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 56%;
+    border: 2px solid;
+    border-color: #2095EE ;  
+    padding: 20px;
+}
+
+
+#Copy {
+    margin-top: 40px;
+    border: 2px dashed #838181;
+    color:  #838181;
+    padding: 40px;
+    width: 56%;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(38, 38, 38); 
+}
